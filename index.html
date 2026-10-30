@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pranavi Reddy — student portfolio, projects and learning journey.">
+<title>Pranavi Reddy | Student Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+<header class="profile-header" id="top">
+  <div class="profile-photo"><img src="assets/pranavi-profile.png" alt="Portrait of Pranavi Reddy"></div>
+  <div class="profile-copy">
+    <p class="eyebrow">STUDENT PORTFOLIO</p>
+    <h1>Pranavi Reddy</h1>
+    <p class="subtitle">Computer Science &amp; Engineering (AI &amp; DS) · VIT Vellore</p>
+    <p class="intro">I am a CSE (AI &amp; DS) student interested in programming, technology and creative problem-solving. I enjoy learning how things work and applying new concepts through practical projects. I am especially interested in building useful, user-friendly digital experiences by combining technology with thoughtful design.</p>
+  </div>
+</header>
+<nav class="contents" aria-label="Portfolio sections">
+  <a href="#introduction">Introduction</a><a href="#projects">Important Projects</a><a href="#courses">Important Classes</a><a href="#resume">Short Resume</a>
+</nav>
+<main>
+<section id="introduction" class="section">
+  <p class="section-kicker">SECTION A</p><h2>Introduction to My Portfolio</h2>
+  <p>This portfolio presents my learning journey as a Computer Science and Engineering student specialising in Artificial Intelligence and Data Science at VIT Vellore. It highlights selected projects, important subjects from my coursework and a short profile of my current skills and achievements.</p>
+  <p>I believe that every project is a chance to turn classroom concepts into practical experience. As I continue learning, I aim to strengthen my programming foundations, explore emerging technologies and develop applications that are genuinely helpful to people.</p>
+</section>
+
+<section id="projects" class="section">
+  <p class="section-kicker">SECTION B</p><h2>Introduction to Important Projects</h2>
+  <p class="section-intro">These projects reflect a mix of academic coursework, programming practice and multidisciplinary teamwork.</p>
+
+  <article class="project">
+    <h3>1. CampusWatt — Smart Campus Energy Monitoring</h3>
+    <p>CampusWatt is a smart hostel and classroom energy-monitoring prototype designed to track live power consumption and circuit status across buildings. It combines a React web dashboard with distributed ESP32 room nodes equipped with current sensors, voltage references, PIR motion detectors and automated safety cut-off relays.</p>
+    <p>The system is designed to identify situations such as possible circuit overloads or appliances left running in unoccupied rooms. Based on its monitoring logic, it can trigger an automatic power cut-off to help improve safety and reduce energy waste. The project brings together embedded systems, sensor-based monitoring and a web interface in a multidisciplinary solution.</p>
+    <div class="tool-tags"><span>React Dashboard</span><span>ESP32</span><span>Current &amp; Voltage Sensing</span><span>PIR Sensors</span><span>Relay Automation</span><span>IoT</span></div>
+    <figure class="layout-figure"><a href="assets/campuswatt-system-layout.png" target="_blank" rel="noreferrer"><img src="assets/campuswatt-system-layout.png" alt="CampusWatt system architecture showing the dashboard, Wi-Fi data flow, ESP32 room node circuit and physical connections"></a><figcaption>CampusWatt — system architecture and physical layout</figcaption></figure>
+  </article>
+  <hr>
+
+  <article class="project">
+    <h3>2. Heat Transfer Simulation Along a Rod</h3>
+    <p>This project uses GNU Octave to simulate one-dimensional heat transfer along a rod. The heat equation is solved numerically using the finite-difference method. Temperature profiles are plotted at different time intervals to observe how heat spreads along the rod while the ends are maintained at zero temperature.</p>
+    <div class="tool-tags"><span>GNU Octave</span><span>Partial Differential Equations</span><span>Finite-Difference Method</span></div>
+    <div class="project-images">
+      <figure><a href="assets/heat-transfer-09.png" target="_blank" rel="noreferrer"><img src="assets/heat-transfer-09.png" alt="GNU Octave heat-transfer code"></a><figcaption>Octave code</figcaption></figure>
+      <figure><a href="assets/heat-transfer-10.png" target="_blank" rel="noreferrer"><img src="assets/heat-transfer-10.png" alt="Heat-transfer simulation graph and results"></a><figcaption>Simulation output</figcaption></figure>
+    </div>
+  </article>
+  <hr>
+
+  <article class="project">
+    <h3>3. Python Project — Guess the Number Game</h3>
+    <p>This command-line game generates a random number between 1 and 100. The player chooses an easy or hard level, which determines the number of attempts available. After each guess, the program gives a hint indicating whether the secret number is higher or lower. This project helped me practise loops, conditional statements, user input and Python's random module.</p>
+    <div class="tool-tags"><span>Python</span><span>Random Module</span><span>Loops</span><span>Conditionals</span></div>
+    <div class="project-images">
+      <figure><a href="assets/guess-number-code.png" target="_blank" rel="noreferrer"><img src="assets/guess-number-code.png" alt="Python source code for Guess the Number Game"></a><figcaption>Python source code</figcaption></figure>
+      <figure><a href="assets/guess-number-output.png" target="_blank" rel="noreferrer"><img src="assets/guess-number-output.png" alt="Console output from Guess the Number Game"></a><figcaption>Console output</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<section id="courses" class="section">
+  <p class="section-kicker">SECTION C</p><h2>Important Classes Attended / Courses</h2>
+  <article class="course"><h3>Python Programming</h3><p>Learning programming fundamentals including variables, data types, conditional statements, loops, functions, strings, lists, dictionaries and basic problem-solving. I apply these concepts through coding exercises and small programs.</p></article>
+  <hr>
+  <article class="course"><h3>Engineering Physics — Quantum Physics</h3><p>Studying introductory quantum concepts such as wave-particle duality, de Broglie wavelength, the uncertainty principle, quantum states and tunnelling. These topics introduce the behaviour of matter at microscopic scales.</p></article>
+  <hr>
+  <article class="course"><h3>Technical English Communication</h3><p>Developing written and oral communication through presentations, discussions, assignments and structured speaking activities. The course helps me organise ideas clearly and communicate technical topics with confidence.</p></article>
+</section>
+
+<section id="resume" class="section resume-section">
+  <p class="section-kicker">SECTION E</p>
+  <h2>Short Resume</h2>
+
+  <div class="resume-block">
+    <h3>Profile</h3>
+    <p>A motivated first-year Computer Science student interested in programming, emerging technologies and creative problem-solving. Passionate about learning new concepts and developing practical solutions through technology.</p>
+  </div>
+
+  <div class="resume-block">
+    <h3>Educational Qualifications</h3>
+    <div class="qualification-table-wrap">
+      <table class="qualification-table">
+        <thead>
+          <tr><th>Qualification</th><th>Institution / Details</th><th>Marks / Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>BTech — CSE (AI &amp; DS)</td><td>VIT Vellore</td><td>Currently pursuing</td></tr>
+          <tr><td>Class XII</td><td>Higher Secondary Education</td><td>985 / 1000 (98.5%)</td></tr>
+          <tr><td>Class X</td><td>Secondary Education</td><td>579 / 600 (96.5%)</td></tr>
+          <tr><td>JEE Main</td><td>Entrance Examination</td><td>93.68 percentile</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="resume-block">
+    <h3>Technical Skills</h3>
+    <div class="tool-tags"><span>Python Programming</span><span>GNU Octave</span><span>HTML</span><span>CSS</span><span>Basic JavaScript</span><span>IoT Concepts</span><span>Web Development</span></div>
+  </div>
+
+  <div class="resume-block">
+    <h3>Strengths</h3>
+    <div class="tool-tags"><span>Teamwork and Collaboration</span><span>Creative Problem-solving</span><span>Communication</span><span>Adaptability</span><span>Willingness to Learn</span></div>
+  </div>
+
+  <div class="resume-block">
+    <h3>Areas of Interest</h3>
+    <p>Artificial Intelligence, Data Science, Web Development, Internet of Things (IoT) and UI/UX Design.</p>
+  </div>
+  <p class="resume-note">This short resume summarises my current qualifications, skills and interests as a first-year student.</p>
+</section>
+</main>
+<footer><span>Pranavi Reddy · Student Portfolio</span><a href="#top">Back to top ↑</a></footer>
+</div>
+</body>
+</html>
